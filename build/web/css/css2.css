@@ -1,0 +1,127 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 14, 2021, 1:12:07 PM
+    Author     : DuyNQ
+*/
+/* detailProduct.jsp  */
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;                
+}
+
+.flex-container .box {              
+    width: 50%;
+    margin: 10px;
+    text-align: center;
+    line-height: 45px;
+    font-size: 20px;
+    text-align: left;
+}
+span{color: black;font-size: 25px;}
+
+/*search.jsp */
+.search{
+    float: left; 
+    padding-left: 20px;
+
+}  
+.showAllSearch{
+    padding: 0px 0px 40px 15px;
+
+}
+.showAllSearch:after{
+    clear: both:
+}
+.select{
+    height: 30px;
+    border: 2px inset green;
+    border-radius: 8px;
+    font-size: 18px;
+}
+hr { background-color: #d4edda; height: 0px; border: 0; }
+/* home.jsp */
+.brand {
+    padding-top: 60px;
+    border-top: #28a745 solid 0px;
+}
+.brand_box {
+    background: #fff;
+    text-align: center;
+    padding: 30px 0px 30px 0px;
+}
+.sort{    
+    text-align: right;   
+}
+ 
+
+/* login.jsp */
+.error ,span{
+    text-align: center;
+    color: green;
+}
+/*header.jsp*/
+.location_icon_bottum li  {
+    color: black !important;
+}
+/* showCart.jsp */
+.add{
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    background-color: #28a745;
+}
+.tableCart{
+    padding-top: 3px;
+}
+.tableCart table ,th ,td{border: 1px solid;border-collapse: collapse;}
+
+.tableCart table{width: 100%;text-align: center;}
+.tableCart th{
+    width: 20%;
+}
+.tableCart th ,td, .total h2{
+    font-size: 30px;
+}
+.total{
+    margin-left: 50px;
+}
+#check{
+    padding-left: 50px;
+}
+
+/* update.jsp*/
+.update table,th,td{border: 1px solid;border-collapse: collapse;}
+.update table{width: 100%;text-align: center; }
+.update th{width: 10%;}
+.update tg,td{font-size: 20px;}
+#up {
+    color: white;
+    background-color: #4AD395;
+}
+
+/*showHistory.jsp*/
+.history table,th,td{border: 1px solid;border-collapse: collapse;}
+.history table{width: 100%;text-align: center; }
+.history th{width: 16%;}
+.history tg,td{font-size: 20px;}
+
+/*contact.jsp*/
+ .p {    
+    color: black;
+    padding-left: 50px;
+}
+.c {
+    padding-left: 300px ;
+    color: black;
+    font-size: 20px;
+}
+#pp{height: 80px; width: 500px;}
+#rep{height: 40px; width: 300px;}
+#postText{ padding-left: 300px ;}
+.postText{padding-top: 50px;padding-left: 50px;}
+
